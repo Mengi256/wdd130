@@ -1,4 +1,10 @@
-nav{
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  nav{
   background-color: darkblue;
   padding: 10px;
 }
@@ -16,6 +22,7 @@ main img{
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 } 
 
 p{
@@ -34,6 +41,7 @@ padding:1rem;
 background-color:#eee;
 color:#333;
 text-align: center;
+position: relative;
 
 }
 aside img{
@@ -50,3 +58,26 @@ footer{
   border-top: 1px solid #000;
   text-align: center;
 } 
+
+/* CLASS SELECTORS */
+.box{
+  margin: 1rem;
+  border: 1px solid lightgray;
+  padding:1rem;
+  background-color: #f8ffe5;
+  color:#06d6a0;
+}
+.country{
+  position: absolute;
+  top: 50px;
+  right:100px;
+  color: #971eb2;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+.about-UG{
+  color: #632407;
+  font-size: 15px;
+  font-family: arial;
+}
