@@ -1,6 +1,6 @@
 :root{
 --primary-color: #4C8581 ;
---Secondary-color:#632407;
+--secondary-color:#632407;
 --accent1-color: #172522;
 --accent2-color: #C4145D;
 --heading-font:  "Lato";
@@ -69,7 +69,7 @@ nav,p,section,article{
   width:125px;
   margin-top:10px;
   border-radius: 6px;
-  box-shadow: #172522;
+  
  } 
 
 
