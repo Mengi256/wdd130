@@ -1,6 +1,6 @@
 :root{
 --primary-color: #4C8581 ;
---secondary-color:#632407;
+--secondary-color:#561F05;
 --accent1-color: #172522;
 --accent2-color: #C4145D;
 --heading-font:  "Lato";
@@ -15,12 +15,11 @@
 
 body{
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  
 }
 
 header{
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
+  background-color: var(--accent1-color);
   display:grid;
   grid-template-columns:auto 1fr;
   padding: 30px;
@@ -37,6 +36,10 @@ header{
  }
  nav a{
   text-decoration: none;
+  color:#fff;
+  font-weight: bold;
+  font-size: 12PX;
+  font-family: var(--body-font);
   
 
  }
@@ -105,12 +108,15 @@ padding: 20px;
   }
   .history h2{
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color:#fff;
     padding-left: 80px;
+    text-align: center;
+    font-weight: bold;
     
   }
   .history-container p{
   font-size: 12px;
+  color: #fff;;
   }
   .history-container{
     display: flex;
@@ -120,21 +126,13 @@ padding: 20px;
   
   }
 
-    
-
-  
   .history-container img{
     width: 150px;
     height: 150px;
     margin-top: 30px;
+    }
+  
     
-    
-   
-  }
-  .history h2{
-    text-align: center;
-    
-  }
   .adventure-section{
     margin-top: 20px;
     padding: 20px;
@@ -142,6 +140,7 @@ padding: 20px;
   }
   .adventure-section h2{
     text-align: center;
+    color: #fff;;
   }
   .adventure{
     display: flex;
@@ -161,7 +160,7 @@ padding: 20px;
     text-align: center;
   }
   .adventure figcaption{
-    color: #fff;
+    color: #fff;;
     font-size: 10px;
     font-family: var(--body-font);
     font-weight: bold;
@@ -176,11 +175,11 @@ padding: 20px;
     flex-wrap: wrap;
     }
 
-   .socialmedia img{
+  .socialmedia img{
     width: 20px;
 }
 
 footer p{
-  color: var(--accent2-color);
+  color: #fff;;
 }
   
