@@ -314,7 +314,7 @@ form h5,h3{
 }
 .purpose{
  display: grid;
- grid-template-columns: 200px 200px;
+ grid-template-columns:200px;
  gap:10px;
  align-items: center;
  padding: 20px;
@@ -322,9 +322,10 @@ form h5,h3{
 }
 .subscription{
  grid-column: 1/-1; 
+ padding: 20px;
+ 
+  
 }
-
-
 textarea{
   grid-column: 1/-1;
   height: 100px;
