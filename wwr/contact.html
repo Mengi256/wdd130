@@ -68,16 +68,21 @@
        <h3> Send Us A Message</h3>
         <div class="name-email">
       <label for="username">Enter your name:</label>
-      <input type="text" id="username" name="username">       
+      <input type="text" id="username" name="username">   
+
        <label for="useremail">Email:</label>
-      <input type="email" id="useremail" name="useremail"> 
+      <input type="email" id="useremail" name="useremail">
+       
       </div> 
        <h5>What is the purpose of your message?</h5>
-       <div class="general"> 
-        <label for="purpose"><input type="radio" name="general" 
-          id="general" value="general">
+       <div class="purpose"> 
+        <label for="general-inquiry"><input type="radio" name="general-inquiry" 
+          id="general-inquiry" value="general-inquiry"> General Inquiry</label><br>
 
-      <label for="suggestions"><input type="radio" id="suggestions" name="purpose" value="suggestions"> Website Suggestion</label>
+      <label for="reservation-questions"><input type="radio" name="reservation-questions" value="reservation-questions"
+        id="reservation-questions"> Reservation Questions</label><br>
+
+      <label for="web-suggestion"><input type="radio" id="web-suggestion" name="web-suggestion" value="web-suggestion"> Website Suggestion</label>
        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
       
          <label for="subscription" class="subscription"><input type="checkbox" id="subscription" name="subscription"> Please subscribe me to the monthly newsletter. </label>
