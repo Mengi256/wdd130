@@ -74,28 +74,14 @@
       </div> 
        <h5>What is the purpose of your message?</h5>
        <div class="purpose"> 
-        <ul> 
-      <li> <label for="purpose">General Inquiry</label>
-      </li>
-      </ul>
-      <input type="radio" value="purpose" name="purpose">
-       <ul> 
-      <li><label for="purpose">Reservation Questions</label>
-      </li>
-      </ul>
-      <input type="radio" id="purpose" value="purpose" name="purpose">
-      
-       <ul> 
-      <li><label for="purpose">Website Suggestion</label> </li>
-      </ul>
-      <input type="radio" value="purpose" name="purpose">
+        <label><input type="radio" name="purpose" value="inquiry"> General Inquiry</label><br>
+      <label><input type="radio" name="purpose" value="reservation"> Reservation Questions</label><br>
+      <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
-      <ul><li>
-         <label for="subscription">Please subscribe me to the monthly newsletter: </label>
-      </li></ul>
-        
-        <input type="checkbox" id="subscription" name="subscription">
-       </div>
+      
+         <label class="subscription"><input type="checkbox" id="subscription" name="subscription"> Please subscribe me to the monthly newsletter. </label>
+    
+        </div>
         <button class="form-button" type="submit">Send Message</button>
 
 
