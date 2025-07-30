@@ -210,7 +210,7 @@ footer p{
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  
   
 }
 
@@ -221,7 +221,7 @@ footer p{
   padding: 14px;
   margin: 0 auto;
   font-weight: bold;
-  padding-left: 50px;
+  
   
 }
 .contact-us p strong{
