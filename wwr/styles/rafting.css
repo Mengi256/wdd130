@@ -74,7 +74,7 @@ nav,p,section,article{
   width:100%;
   height:auto;
 }
- h1{
+ .heading{
   position: absolute;
   top:20px;
   width: 100%;
