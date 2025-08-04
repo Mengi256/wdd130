@@ -491,7 +491,7 @@ figcaption h5{
 
 
 /*TRIPS SECTION*/
-.trip-hero{
+ .trip-hero{
   background:linear-gradient(to bottom, lightblue,white);
   padding: 20px;
   display: grid;
@@ -638,4 +638,4 @@ table caption{
 .footer{
  font-size: 26px;
  font-style: italic;
-}
+} 
