@@ -551,31 +551,30 @@ figcaption h5{
  
  
  
+ 
  }
  .trips{
   
   width: 200px;
-  position: relative;
+  box-shadow: 20px 20px 20px 0 rgb(0,0,0,0.06);
+  
+  
   
  
   
  }
 .card-container{
-
-  padding:20px;
   font-size: 10px;
-  background:linear-gradient(to top, lightblue, white);
-  margin-top:100px ;
-  box-shadow: 2px 2px 2px grey;
+  background:linear-gradient(to top, lightblue, #fff);
   border-radius: 0 0 10px 10px;
+  padding: 30px;
  
 }
 .card-image{
- position:absolute;
- bottom:134px;
- box-shadow: 2px 2px 1px grey;
+ 
  border-radius: 10px 10px 0 0;
  width:200px;
+ 
  
 }
 .family-trip{
